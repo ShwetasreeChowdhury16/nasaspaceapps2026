@@ -6,7 +6,7 @@ A Streamlit app that lets anyone pick a place on Earth and a climate question, t
 
 Built for the **2026 NASA Space Apps Challenge** - *Be an Earth System Trend Detective!*
 
-> **Live app:** `<add your Streamlit Cloud URL here>`
+> **Live app:** https://trendyearth.streamlit.app/
 > **Demo video:** `<add your video link here>`
 
 ---
