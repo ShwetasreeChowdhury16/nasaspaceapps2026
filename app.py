@@ -145,7 +145,7 @@ st.session_state.setdefault("custom_lon", -87.63)
 
 # ---------------------------------------------------------------- header + guided questions
 brand, source = st.columns([1, 1])
-brand.markdown("#### Trendy earth - an Earth System Trend Detective")
+brand.markdown("#### Trendy Earth - an Earth System Trend Detective")
 source.markdown(
     "<div style='text-align:right;color:#a9b8cb;font-size:0.9rem;padding-top:0.6rem'>"
     "NASA POWER · MERRA-2 reanalysis · 1981–2025</div>",
