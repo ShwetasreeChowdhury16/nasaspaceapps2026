@@ -6,7 +6,7 @@ A Streamlit app that lets anyone pick a place on Earth and a climate question, t
 
 Built for the **2026 NASA Space Apps Challenge** - *Be an Earth System Trend Detective!*
 
-> **Live app:** https://trendyearth.streamlit.app/
+> **Live app:** `<add your Streamlit Cloud URL here>`
 > **Demo video:** `<add your video link here>`
 
 ---
@@ -101,6 +101,7 @@ trend-detective/
 ├── fetch_data.py       # one-time download of preset places and the regional grid
 ├── config.py           # places, topics, variable definitions, region-type hints
 ├── scenes.py           # dark theme and animated topic backgrounds
+├── globe_component/    # interactive D3 globe (drag to rotate, click to investigate)
 ├── requirements.txt
 ├── .streamlit/config.toml
 └── data/               # cached CSVs from fetch_data.py
@@ -117,4 +118,5 @@ I chose the challenge and directed the design: globe-based place selection, the 
 
 ## Acknowledgements
 Data: NASA POWER Project, NASA Langley Research Center; MERRA-2, NASA GMAO.
+Open-source software: Streamlit, Plotly, pandas, NumPy, SciPy, requests, D3 and topojson-client (globe), world-atlas map data derived from Natural Earth (public domain), pymannkendall (used only to validate the Mann-Kendall implementation).
 Built for the 2026 NASA Space Apps Challenge.
