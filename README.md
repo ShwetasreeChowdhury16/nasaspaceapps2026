@@ -1,4 +1,4 @@
-# 🌍 Earth System Trend Detective
+# 🌍 Trendy Earth - Earth System Trend Detective
 
 **Is it changing here, and is the change real?**
 
@@ -6,7 +6,7 @@ A Streamlit app that lets anyone pick a place on Earth and a climate question, t
 
 Built for the **2026 NASA Space Apps Challenge** - *Be an Earth System Trend Detective!*
 
-> **Live app:** `<add your Streamlit Cloud URL here>`
+> **Live app:** https://trendyearth.streamlit.app/
 > **Demo video:** `<add your video link here>`
 
 ---
@@ -114,7 +114,7 @@ trend-detective/
 - Seasonal trends (e.g. "are summers warming faster than winters?")
 
 ## Use of AI
-I chose the challenge and directed the design: globe-based place selection, the guided topic → place → variable flow, plain-language verdicts for non-experts, and topic-themed visuals. Claude (Anthropic), a large language model, was used as a coding and writing assistant. It suggested NASA POWER as a single consistent data source, which I adopted, and helped write and debug the code, implement the statistical tests (checked against the `pymannkendall` package), build the styling and animated backgrounds, and draft this documentation, which I reviewed. No AI-generated images, video or audio are used. All data and statistical results come from NASA POWER and the code in this repository.
+I chose the challenge and directed the design: globe-based place selection, the guided topic → place → variable flow, plain-language verdicts for non-experts, and topic-themed visuals. Claude (Anthropic), a large language model, was used as a coding and writing assistant. It was also instrumental in debugging the code, he statistical tests (checked against the `pymannkendall` package), build the styling and animated backgrounds, and draft this documentation, which I reviewed. No AI-generated images, video or audio are used. All data and statistical results come from NASA POWER and the code in this repository.
 
 ## Acknowledgements
 Data: NASA POWER Project, NASA Langley Research Center; MERRA-2, NASA GMAO.
