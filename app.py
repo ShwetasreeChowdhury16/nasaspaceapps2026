@@ -20,7 +20,7 @@ from trends import ALPHA, analyze, fmt_p, classify_region, grid_trends, metric_g
 DATA = Path(__file__).parent / "data"
 CUSTOM = "Custom coordinates…"
 
-st.set_page_config(page_title="Earth System Trend Detective", page_icon="🔎", layout="wide")
+st.set_page_config(page_title="Trendy Earth - an Earth System Trend Detective", page_icon="🔎", layout="wide")
 
 
 # ---------------------------------------------------------------- data access
